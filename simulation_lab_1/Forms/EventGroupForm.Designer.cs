@@ -80,9 +80,9 @@ namespace simulation_lab_1.Forms
             this.answerTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.answerTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.answerTextBox.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.answerTextBox.Location = new System.Drawing.Point(84, 159);
+            this.answerTextBox.Location = new System.Drawing.Point(75, 150);
             this.answerTextBox.Name = "answerTextBox";
-            this.answerTextBox.Size = new System.Drawing.Size(120, 50);
+            this.answerTextBox.Size = new System.Drawing.Size(130, 60);
             this.answerTextBox.TabIndex = 2;
             this.answerTextBox.Text = "ДА";
             this.answerTextBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

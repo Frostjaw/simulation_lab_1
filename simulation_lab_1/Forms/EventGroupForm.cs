@@ -12,40 +12,76 @@ namespace simulation_lab_1.Forms
 {
     public partial class EventGroupForm : Form
     {
-        private const int N = 8;
+        private const int N = 20;
 
         private readonly Random _rng;
         private readonly Form _callingForm;
         private List<double> _probabilitys = new List<double>()
         {
+            0.02,
+            0.02,
+            0.03,
+            0.03,
+            0.03,
             0.05,
+            0.07,
+            0.07,
+            0.08,
+            0.08,
             0.1,
-            0.15,
-            0.2,
-            0.2,
-            0.15,
-            0.1,
-            0.05
+            0.08,
+            0.07,
+            0.07,
+            0.05,
+            0.05,
+            0.03,
+            0.03,
+            0.02,
+            0.02,
         };
         private List<string> _answers = new List<string>()
         {
             "Бесспорно",
+            "Предрешено",
             "Никаких сомнений",
+            "Определённо да",
+            "Можешь быть уверен в этом",
+            "Мне кажется — да",
             "Вероятнее всего",
+            "Хорошие перспективы",
+            "Знаки говорят — да",
             "Да",
             "Пока не ясно, попробуй снова",
+            "Спроси позже",
+            "Лучше не рассказывать",
             "Сейчас нельзя предсказать",
-            "Мой ответ — «нет»",
+            "Сконцентрируйся и спроси опять",
+            "Даже не думай",
+            "Мой ответ — нет",
+            "По моим данным — нет",
+            "Перспективы не очень хорошие",
             "Весьма сомнительно",
         };
         private List<Color> _colors = new List<Color>()
         {
             Color.Green,
             Color.Green,
+            Color.Green,
+            Color.Green,
+            Color.Green,
+            Color.Blue,
+            Color.Blue,
+            Color.Blue,
             Color.Blue,
             Color.Blue,
             Color.Orange,
             Color.Orange,
+            Color.Orange,
+            Color.Orange,
+            Color.Orange,
+            Color.Red,
+            Color.Red,
+            Color.Red,
             Color.Red,
             Color.Red,
         };
